@@ -1,2 +1,0 @@
-# Damitomide
-My personal website
