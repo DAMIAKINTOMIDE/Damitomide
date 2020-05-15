@@ -212,7 +212,8 @@ ul li{
 
 .skills{
     width: 100%;
-    border: solid 1px #054a73;
+    border-top: solid 1px #054a73;
+    border-bottom: solid 1px #054a73;
 }
 
 .skills .col{
