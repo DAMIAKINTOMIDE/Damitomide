@@ -45,6 +45,12 @@ ul li{
     height: 30px;
     border-radius: 20px;
     background: #ffffff;
+
+}
+
+.header .social-links .header-image a img:hover{
+	 transform: scale(1.2);
+	 animation: move ease-in-out 5s
 }
 
 .header .social-links .header-image{
@@ -109,6 +115,21 @@ ul li{
 .col-2{
     width: 50%;
     padding: 0.5em;
+  
+}
+
+.col-2 h2{
+	  animation: move ease-out 2s;
+}
+
+@keyframes move {
+  0% {
+    font-size:50px;
+  }
+  100% {
+	font-size: 43px;
+  }
+  
 }
 
 .main-panel .col-1 img{
@@ -191,7 +212,7 @@ ul li{
 
 .skills{
     width: 100%;
-    background: #054a73;
+    border: solid 1px #054a73;
 }
 
 .skills .col{
@@ -206,7 +227,7 @@ ul li{
 
 .skills h2{
     text-align: center;
-    color: #ffffff;
+    color: #000000;
     padding-top: 0.4em;
 }
 .projects .col{
@@ -220,8 +241,8 @@ ul li{
 
 .projects .box{
     width:20%;
-    height: 200px;
-    margin: 2em 1.5em;
+    height: 150px;
+    margin: 0.5em 1.5em 0;
     border-radius: 0 0 1.8em 1.8em;
     border-top: 5px solid #054a73;
 }
@@ -243,15 +264,16 @@ ul li{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(180deg,#3d74b4 0,#155da0 100%);
-    border-radius: 0 0 1.8em 1.8em;
+    background-image: linear-gradient(180deg,#ffffff 0,#f1f1f1 100%);
+        box-shadow: -3px 4px 5px 0px #d3cfcf;
 }
 
 .projects .box .box-footer a{
     text-decoration: none;
-    color: #ffffff;
+    color: #000;
     font-weight: 600;
     font-size: 15px;
+    font-family: cursive;
 }
 
 .projects h2{
