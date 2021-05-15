@@ -258,6 +258,11 @@ ul li{
     border-bottom: none;
 }
 
+projects .box .box-footer .articles {
+   height: 60%;
+    text-align: center;
+}
+
 .projects .box .box-footer{
     border-top: solid 1px #e7e7e7;
     height: 30%;
